@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2 Задание</title>
+</head>
+<body>
+  <script>
+  function arrayCut (arr){
+    for (let zero = arr.length; zero > 0; zero--){
+      console.log(`${arr.pop()} осталось ${arr}`);
+    }
+  }
+  var a=[];
+    i = prompt("Сколько хотите ввести чисел?");
+  for (let zero = 0; zero < i; zero++)
+    a[zero] = prompt("Введиет число");
+  console.log(a);
+  arrayCut(a);
+  </script>
+</body>
+</html>
