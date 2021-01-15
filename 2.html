@@ -10,6 +10,9 @@
   <script>
   function arrayCut (arr){
     for (let zero = arr.length; zero > 0; zero--){
+      if (zero == 1)
+        console.log(`${arr.pop()}`);
+      else
       console.log(`${arr.pop()} осталось ${arr}`);
     }
   }
